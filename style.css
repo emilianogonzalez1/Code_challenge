@@ -1,0 +1,51 @@
+body{
+    background: linear-gradient(45deg, #770a72, #9a20b3, #b838d8, #e565ff, #eb88ff,#f9dbff,#e565ff);
+    background-size: 1000% 2000%;
+    animation: animado 10s ease infinite;
+}
+
+@keyframes animado {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#formulario{
+    border-radius: 15px;
+    padding: 25px;
+    background-color: wheat;
+    width: 16vw;
+    height: 17vh;
+    margin: 40vh auto;
+
+}
+
+#nombre, #apellido, #cumple{
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    margin: auto;
+    width: 15vw;
+    height: 2em;
+}
+
+button{
+    border-radius: 5px;
+    border: none;
+    display: flex;
+    margin: auto;
+    height: 2em;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+ background-color: lightseagreen;
+ transition: ease-in-out .7s;
+}
